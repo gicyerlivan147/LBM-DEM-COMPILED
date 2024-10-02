@@ -1,0 +1,35 @@
+false	#if initialize by reading from files
+3	19
+1	#max DEM steps
+25	#steps to output LBM
+0.2	#time fraction, 1.0 means to calculate all fluid steps
+0.0	#start time
+0.0	#error tolerance
+1.0	#force correction coefficient
+%u, %v, %w
+#-------input some parameters----------------------------------------------------------------
+1.39			#Raynolds number
+1.0d+0			#LBM delta_t
+4.0d-1			#Length coefficient
+1.0d-1			#LBM mach number
+1.0d-8			#real density
+0.1				#real ref_pressure
+1	1	1		#pressure ref_point
+false	false	false	#if body force for calculating pressure
+5.0d0	1.0d0	1.0d0	#deviation while reading particles
+5.0			#character length in LBM
+14390			#real kinetic viscosity
+340d0			#sound speed
+5.0d3	0.0d0	0.0d0	#real character velocity
+1.0d0			#initial rho (rho_0)
+0.0d0	0.0d0	0.0d0	#initial u , v and w, v = 0.0 while 2D
+1.0d0	1.0d0	1.0d0	#Lattice length in x  y and z direction, 0.0 in y direction while 2D
+163	75	50      #Lattice number in x y and z direction
+#------TRT parameters------
+2.5d-1	TRT lambda
+#------MRT parameters------
+0.0 1.2 1.2 0.0 1.2 0.0 1.2 0.0 0.0		#relaxation matrix
+0.0 1.2 1.2 0.0 1.2 0.0 1.2 0.0 0.0
+0.0
+#-------Smagorinsky constant--------
+0.27

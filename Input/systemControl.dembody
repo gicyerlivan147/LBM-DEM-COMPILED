@@ -1,0 +1,44 @@
+DEMBody 8.8
+*---Lattice params
+3.0	3.0	3.0                                    // Meshgrid interval, 2.5Rmax
+20 10 12                                              // Meshgrid number
+0.0    0.0    0.0                                // Meshgrid origin
+1.8e-1                                                   // Meshgrid update threshold, 0.2Rmin
+*---Console params
+4.0e-2 3.0e1                                        // Output time interval, termination time
+4.0e-2                                                // Checkpoint time interval 
+4.0e-4                                                // Timestep
+*---System control
+False   # whether intergrate Quaternion                 // Quaternion
+True   # whether use Contactable Walls                 // Contactable Walls                   
+False   # whether use cylinderical walls              // Penetrator body (contact)
+True    # whether use Periodic function                 // Periodic boundary                      // Self Gravity
+False	# whether use Tilt Gravity						// Tilted Gravity
+True	# whether use Output Energy						// Output Energy
+1e7     # maximun contact acceleration                  // Max acc
+*---Output control
+%X, %0, %r, %V, %I, %F                                          // Output control
+*---Gravity
+0.0 0.0 -2.0e-2                                         // Gravity vector
+*---Tilted gravity
+0											    // Tilt time range
+*---Material properties
+2245                                                // number of particles
+1e7 0.3                                                 // stiffness, poison ratio
+0.6  0.6                                                 // friction properties
+0.5                                                   // coefficient of restitution
+0.6                                                     // rolling friction
+64.3670 1.0                                                 // cohesive strength, cohesive range
+3.0                                                     // dump
+0.3 0.2                                                 // dump
+*---Contactable walls                                   // Infinite contact walls   
+4                                                       // Num                          // point, vector, flag
+0.0 0.0 0.0 0.0 0.0 1.0 False 
+0.0 0.0 36 0.0 0.0 -1.0 True
+0.0 0.0 0.0 0.0 1.0 0.0 True 			
+0.0 30.0 0.0 0.0 -1.0 0.0 True   				// point, vector, flag                  
+*---Cylinderical walls
+0 				// point, vector, flag
+*---Periodic boundary conditions                        // Periodic boundary
+True
+False
