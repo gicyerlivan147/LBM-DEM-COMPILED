@@ -1,0 +1,11 @@
+# The fortran modules provided by this target.
+provides
+ cal_feq.mod
+ calfraction.mod
+ functions.mod
+ gaussian_filter.mod
+ global.mod
+ lbmparameters.mod
+ loadfile.mod
+ math.mod
+ pbc.mod
