@@ -1,0 +1,14 @@
+tau=    1.1230398588E+00
+character length=    5.0000000000E+00
+LBM character velocity=    5.7735026919E-02
+time coefficient=    2.3091586151E-06
+length coefficient=    4.0000000000E-01
+velocity coefficient=    1.7322326729E+05
+acceleration coefficient=    7.5015750827E+10
+force coefficient=    4.8010080529E+01
+real Mach number=    2.9414852941E+01
+omega coefficient=    4.3305816823E+05
+torque coefficient=    1.9204032212E+01
+pressure coefficient=    3.0006300331E+02
+density coefficient=    1.0000000000E-08
+        0.00000  ->  file0000        1.00040  ->  file0025        2.00040  ->  file0050        3.00040  ->  file0075        4.00040  ->  file0100        5.00040  ->  file0125        6.00040  ->  file0150        7.00040  ->  file0175        8.00040  ->  file0200        9.00000  ->  file0225       10.00000  ->  file0250       11.00000  ->  file0275       12.00000  ->  file0300       13.00000  ->  file0325       14.00000  ->  file0350       15.00000  ->  file0375       16.00000  ->  file0400       17.00000  ->  file0425       18.00000  ->  file0450       19.00000  ->  file0475       20.00000  ->  file0500       21.00000  ->  file0525       22.00000  ->  file0550       23.00000  ->  file0575       24.00040  ->  file0600       25.00040  ->  file0625       26.00040  ->  file0650       27.00040  ->  file0675       28.00040  ->  file0700       29.00040  ->  file0725       30.00040  ->  file0750
